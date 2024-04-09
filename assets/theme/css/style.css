@@ -5,6 +5,29 @@
 .container {
   position: relative; }
 
+.navbar {
+  color: #2596be;
+}
+.container-pp {
+    text-align: center;
+    margin-top: 50px;
+  }
+  .logo-pp {
+    display: inline-block; /* Mostrar los logos en línea horizontalmente */
+    margin-right: 20px; /* Agregar un espacio entre los logos */
+}
+.logo-pp img{
+  
+    margin-bottom: 20px;
+    max-width: 160px;
+    height: auto;
+  
+  }
+.text-pp {
+    font-size: 20px;
+    color: #ffffff;
+  }
+
 .btn {
   margin-bottom: 0.5rem; }
   .btn + .btn {
@@ -16,13 +39,13 @@
         margin-left: 0; } }
 
 .bg-primary {
-  background-color: #c0a375 !important; }
+  background-color: #2596be !important; }
 
 .bg-success {
   background-color: #90a878 !important; }
 
 .bg-info {
-  background-color: #7e9b9f !important; }
+  background-color: #2596be !important; }
 
 .bg-warning {
   background-color: #f3c649 !important; }
@@ -250,7 +273,7 @@
     opacity: 0.85; }
 
 .btn-black {
-  background-color: #535353;
+  background-color: #242020;
   border-color: #535353;
   box-shadow: none;
   color: #fff; }
@@ -521,7 +544,7 @@ p.lead,
   margin-bottom: 1.8rem; }
 
 .modal-backdrop {
-  background: -webkit-linear-gradient(left, #564740, #3a414a);
+  background: -webkit-linear-gradient(left, #564740, #4c83cc);
   background: -moz-linear-gradient(left, #564740, #3a414a);
   background: -o-linear-gradient(left, #564740, #3a414a);
   background: -ms-linear-gradient(left, #564740, #3a414a);
@@ -532,7 +555,7 @@ p.lead,
   background-color: #f5f5f5;
   border-radius: 3px;
   box-shadow: none;
-  color: #565656;
+  color: #d41010;
   font-size: 0.875rem;
   line-height: 1.43;
   min-height: 3.5em;
@@ -702,6 +725,10 @@ input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:foc
   margin-top: -1em; }
 .mbr-section-hero .mbr-section-text {
   color: #fff; }
+
+.mbr-logo{
+  display: inline-block;
+}
 
 @media (max-width: 767px) {
   .mbr-section {
@@ -1232,7 +1259,7 @@ input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:foc
   .mbr-cards-row {
     display: table;
     table-layout: fixed;
-    width: 100%; }
+    width: 95%; }
     .mbr-cards-row::after {
       display: none; }
   .mbr-cards-col {
@@ -1707,7 +1734,7 @@ input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:foc
   border: 0;
   margin-bottom: 0; }
   .img-top {
-    height: 25px;
+    height: 35px;
     padding-top: 5px; 
     padding-right: 5px; /* Ajusta este valor según sea necesario */
     margin-bottom: 0.5rem;
