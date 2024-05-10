@@ -1247,6 +1247,8 @@ input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:foc
 .mbr-cards .card {
   text-align: center;
   border: 0;
+  max-width: 100%;
+  
   background: none;
   padding-left: 0;
   padding-right: 0;
@@ -1728,6 +1730,9 @@ input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:foc
    Company
 
 -------*/
+.card-img-interface{
+  max-width: 100%;
+}
 .mbr-company {
   background: none;
   border-radius: 0;
@@ -2138,6 +2143,8 @@ input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:foc
   color: #000; }
 
 html.is-builder .mbr-cards .card-img + .card-block {
+  width: 10px;
+  max-width: 10px;
   padding-top: 0; }
 html.is-builder .mbr-cards .card-text + .card-btn {
   padding-top: 0; }
