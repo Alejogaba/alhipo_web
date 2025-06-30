@@ -35,7 +35,6 @@ yarn-error.log*
 Dockerfile
 .dockerignore
 .gitignore
-nginx.conf
 
 # Carpeta public de Firebase (no necesaria)
 public/
