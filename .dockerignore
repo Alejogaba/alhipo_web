@@ -1,0 +1,46 @@
+# Archivos de Git
+.git
+.gitignore
+
+# Archivos de Firebase (no necesarios para el contenedor)
+.firebaserc
+firebase.json
+firestore.indexes.json
+firestore.rules
+
+# Archivos de documentación
+README.md
+LICENSE
+
+# Archivos de configuración del editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Archivos temporales
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Archivos de Node.js (si los hubiera)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Archivos de construcción y configuración
+Dockerfile
+.dockerignore
+.gitignore
+nginx.conf
+
+# Carpeta public de Firebase (no necesaria)
+public/
+
+# Archivos de backup o temporales
+*.bak
+*.tmp
+*.temp
